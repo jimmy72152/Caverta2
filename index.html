@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Caverta</title>
+    <link rel="stylesheet" href="style/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style/owl.carousel.min.css" />
+    <link rel="stylesheet" href="style/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="style/main.css" />
+</head>
+
+<body onclick="toggleSidebar('close')">
+    <section class="landing_section">
+        <header class="position-fixed end-0 top-0 start-0">
+            <div class="d-flex justify-content-between align-items-center top_nav px-3">
+                <img src="images/logo.svg" class="logo" alt="logo" />
+                <button class="btn rounded text-white">Buy now</button>
+            </div>
+            <nav class="navbar px-5 pt-3">
+                <div class="d-lg-none d-block menu_bars d-flex flex-column justify-content-between cursor-pointer"
+                    id="bars" onclick="toggleSidebar();event.stopPropagation()">
+                    <div class="bar_1 bg-white"></div>
+                    <div class="bar_2 bg-white"></div>
+                    <div class="bar_3 bg-white"></div>
+                </div>
+                <div class="logo">
+                    <img src="images\caverta-logo2.png" alt="caverta" />
+                </div>
+                <div class="navlinks d-flex align-items-center">
+                    <ul class="d-xl-flex d-none my-0 me-5">
+                        <li class="mx-3 position-relative"><a
+                                class="nav_link text-uppercase cursor-pointer position-relative menu">Home</a>
+                            <ul class="justify-content-center sub_menu d-none px-0 text-center py-3">
+                                <li>Home 0</li>
+                                <li>Home 1</li>
+                                <li>Home 2</li>
+                                <li>Home 3</li>
+                                <li>Home 4</li>
+                                <li>Home Video</li>
+                                <li>Home 6</li>
+                                <li>Home 7</li>
+                                <li>Home 8</li>
+                                <li>Home 9</li>
+                                <li>Home 10</li>
+                                <li>Home 11</li>
+                            </ul>
+                        </li>
+                        <li class="mx-3 position-relative"><a
+                                class="nav_link text-uppercase cursor-pointer position-relative menu">menu</a>
+                            <ul class="justify-content-center sub_menu d-none px-0 text-center py-3">
+                                <li>Menu 1 col</li>
+                                <li>Menu 2 cols</li>
+                                <li>Menu 3 cols</li>
+                                <li>Menu According</li>
+                                <li>Menu 3</li>
+                                <li>Menu 4</li>
+                                <li>Menu 5</li>
+                                <li>Menu 6</li>
+                                <li>Menu 7</li>
+                                <li>Menu 8</li>
+                                <li>Menu 9</li>
+                                <li>Menu 10</li>
+                                <li>Menu 11</li>
+                                <li>Menu 12</li>
+                            </ul>
+
+                        </li>
+                        <li class="mx-3 position-relative"><a
+                                class="nav_link text-uppercase cursor-pointer position-relative menu">pages</a>
+                            <ul class="justify-content-center sub_menu d-none px-0 text-center py-3">
+                                <li>Top Headers</li>
+                                <li>Aboout Me</li>
+                                <li>Aboout Me 2</li>
+                                <li>Aboout Us</li>
+                                <li>Aboout Us 2</li>
+                                <li>Pricing</li>
+                                <li>FAQ</li>
+                            </ul>
+                        </li>
+                        <li class="mx-3 position-relative"><a
+                                class="nav_link text-uppercase cursor-pointer position-relative">reservation</a>
+
+                        </li>
+                        <li class="mx-3 position-relative"><a
+                                class="nav_link text-uppercase cursor-pointer position-relative menu">Blog</a>
+                            <ul class="justify-content-center sub_menu d-none px-0 text-center py-3">
+                                <li>Team 2 Cols</li>
+                                <li>List</li>
+                                <li>Grid 2 cols</li>
+                                <li>Grid 3 cols</li>
+                                <li>Single Post</li>
+                            </ul>
+                        </li>
+                        <li class="mx-3 position-relative"><a
+                                class="nav_link text-uppercase cursor-pointer position-relative menu">team</a>
+                            <ul class="justify-content-center sub_menu d-none px-0 text-center py-3">
+                                <li>Team 2 Cols</li>
+                                <li>Team 3 Cols</li>
+                                <li>Team 4 Cols</li>
+                            </ul>
+                        </li>
+                        <li class="mx-3 position-relative"><a
+                                class="nav_link text-uppercase cursor-pointer position-relative menu">gallery</a>
+                            <ul class="justify-content-center sub_menu d-none px-0 text-center py-3">
+                                <li>3 Cols</li>
+                                <li>4 Cols</li>
+                                <li>Full Screen 3 Cols</li>
+                                <li>Full Screen 4 Cols</li>
+                            </ul>
+                        </li>
+                        <li class="mx-3 position-relative"><a
+                                class="nav_link text-uppercase cursor-pointer position-relative menu">contact</a>
+                            <ul class="justify-content-center sub_menu d-none px-0 text-center py-3">
+                                <li>Contact 1</li>
+                                <li>Contact 2</li>
+                                <li>Contact 3</li>
+                                <li>Contact 4</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <div>
+                        <i class="fa-brands fa-facebook-f text-white me-2 cursor-pointer"></i>
+                        <i class="fa-brands fa-twitter text-white me-2 cursor-pointer"></i>
+                        <i class="fa-brands fa-earlybirds text-white me-2 cursor-pointer"></i>
+                        <i class="fa-brands fa-instagram text-white me-3 cursor-pointer"></i>
+                        <button class="btn rounded-0 text-uppercase bg-white d-lg-inline d-none">
+                            book a table
+                        </button>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <div class="owl-carousel">
+            <div class="landing_1 landing d-flex flex-column justify-content-center align-items-center text-white">
+                <p class="mb-0">DINING AT</p>
+                <h2 class="h1">Caverta</h2>
+                <span>We offer a highly seasonal and continuously evolving tasting menu experience.</span>
+                <p class="border-bottom pb-2 mt-5">CONTACT US</p>
+            </div>
+            <div class="landing_2 landing d-flex flex-column justify-content-center align-items-center text-white">
+                <p class="mb-0">EVENTS AT</p>
+                <h2 class="h1">Caverta</h2>
+                <span>We offer a highly seasonal and continuously evolving tasting menu experience.</span>
+                <p class="border-bottom pb-2 mt-5">CONTACT US</p>
+            </div>
+            <div class="landing_3 landing d-flex flex-column justify-content-center align-items-center text-white">
+                <p class="mb-0">HAPPY HOURS AT</p>
+                <h2 class="h1">Caverta</h2>
+                <span>We offer a highly seasonal and continuously evolving tasting menu experience.</span>
+                <p class="border-bottom pb-2 mt-5">CONTACT US</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="onboarding position-relative">
+        <div class=" bg-white onboarding_div declaration d-flex flex-column justify-content-center">
+            <div class="container row m-auto">
+                <div class="col-md-3 d-md-block d-none">
+                    <img src="images/welcome-1.jpg" class="w-100" alt="welcome 1">
+                </div>
+                <div class="col-md-6">
+                    <div class="px-2 text-center d-flex flex-column justify-content-between align-items-center h-100">
+                        <span
+                            class="hint_colored position-relative text-center text-primary text-uppercase mb-3">Welcome</span>
+                        <h2 class="h1 mb-5 mt-3">Dining at Caverta</h2>
+                        <p>For a truly memorable dining experience, cuisine and atmosphere are paired as thoughtfully as
+                            food and wine. Ut enim ad minim veniam, quis nostrud exercitation ullamco. Quia consequuntur
+                            magni dolores eos qui ratione voluptatem sequi nesciunt. Animi, id est laborum et dolorum
+                            fuga.
+                            Nam libero.</p>
+                        <button class="btn outline-primary-btn rounded-0">
+                            Book A Table
+                        </button>
+                    </div>
+                </div>
+                <div class="col-md-3 d-md-block d-none">
+                    <img src="images/welcome-2.jpg" class="w-100" alt="welcome 1">
+                </div>
+            </div>
+        </div>
+        <div class="text-center bg-transparent d-flex flex-column justify-content-center align-items-center">
+            <span class="text-center text-white position-relative hint">
+                COME AND SEE
+            </span>
+            <h2 class="h1 text-white mt-3">We create delicious experiences</h2>
+        </div>
+    </section>
+
+    <section class="menu_container">
+        <div class="bg-white">
+            <div class="px-2 text-center d-flex flex-column justify-content-between align-items-center discover">
+                <span
+                    class="hint_colored position-relative text-center text-primary text-uppercase mb-3">DISCOVER</span>
+                <h2 class="h1 mb-5 mt-3">Menu a la Carte</h2>
+                <p>Explore texture, color and of course the ultimate tastes with our menu of the season. All the
+                    ingredients
+                    are fresh and carefully selected by our chefs. Enjoy an extraordinary dinning experience.</p>
+            </div>
+            <div class="d-flex align-items-center justify-content-evenly container menu_types">
+                <h4 class="cursor-pointer menu_item_1" onclick="bindData('starters')">STARTERS</h4>
+                <h4 class="cursor-pointer menu_item_2" onclick="bindData('mainCourse')">MAIN COURSE</h4>
+                <h4 class="cursor-pointer menu_item_3" onclick="bindData('soups')">SOUPS</h4>
+                <h4 class="cursor-pointer menu_item_4" onclick="bindData('deserts')">DESERTS</h4>
+            </div>
+            <div class="row container menu py-5 g-4 mx-auto" id="menu_container"> </div>
+        </div>
+        <div class="text-center bg-transparent d-flex flex-column justify-content-center align-items-center">
+            <span class="text-center text-white position-relative hint">
+                NOW BOOKING
+            </span>
+            <h2 class="h1 text-white mt-3">Private Dinners & Happy Hours</h2>
+        </div>
+    </section>
+    <section>
+        <div class="w-75 row m-auto declaration align-items-center">
+            <div class="col-md-6 h-100">
+                <div
+                    class="px-2 text-center d-flex flex-column justify-content-between align-items-center h-100 m-lg-0 mt-5">
+                    <span class="hint_colored position-relative text-center text-primary text-uppercase mb-3">BEHIND THE
+                        SCENES</span>
+                    <h2 class="h1 mb-5 mt-3">The Team</h2>
+                    <p>For a truly memorable dining experience, cuisine and atmosphere are paired as thoughtfully as
+                        food and wine. Ut enim ad minim veniam, quis nostrud exercitation ullamco. Quia consequuntur
+                        magni dolores eos qui ratione voluptatem sequi nesciunt. Animi, id est laborum et dolorum fuga.
+                        Nam libero.</p>
+                    <button class="btn outline-primary-btn rounded-0 find_more">
+                        FIND MORE
+                    </button>
+                </div>
+            </div>
+
+            <div class="col-md-3 m-lg-0 mb-5 p-lg-0 pb-5 mt-5 col-6 pe-3 p-0">
+                <img src="images/home-team-1.jpg" class="w-100" alt="welcome 1">
+            </div>
+            <div class="col-md-3 m-lg-0 mb-5 p-lg-0 pb-5 mt-5 col-6 ps-3 p-0">
+                <img src="images/home-team-2.jpg" class="w-100" alt="welcome 1">
+            </div>
+        </div>
+    </section>
+    <section class="testimonials py-5">
+        <div class="text-center bg-transparent d-flex flex-column justify-content-center align-items-center pt-5">
+            <span class="text-center text-white position-relative hint">
+                TESTIMONIALS
+            </span>
+            <h2 class="h1 text-white mt-3">What Clients Say</h2>
+            <div class="owl-carousel">
+                <div>
+                    <h4 class="text-white w-75 mb-5 mt-4 text-center testimonial">"Quisque rutrum. Aenean imperdiet.
+                        Etiam
+                        ultricies nisi vel augue. Curabitur
+                        ullamcorper ultricies nisi.
+                        Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper
+                        libero.
+                        officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint."</h4>
+                    <div class="text-white testimonial_data mt-4 border-top pt-3">
+                        <p class="mb-0">Laura Foster</p>
+                        <span>Agro</span>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="text-white w-75 mb-5 mt-4 text-center testimonial">"Caverta is a special place tiam sit
+                        amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec
+                        sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc vitae.
+                        Et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti"</h4>
+                    <div class="text-white testimonial_data mt-4 border-top pt-3">
+                        <p class="mb-0">Laura Foster</p>
+                        <span>Agro</span>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="text-white w-75 mb-5 mt-4 text-center testimonial">"Donec quam felis, ultricies nec,
+                        pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla
+                        vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae,
+                        justo. Itaque earum rerum hic tenetur a sapiente delectus. Accusantium doloremque."</h4>
+                    <div class="text-white testimonial_data mt-4 border-top pt-3">
+                        <p class="mb-0">Laura Foster</p>
+                        <span>Agro</span>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="text-white w-75 mb-5 mt-4 text-center testimonial">
+                        "In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede
+                        mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate
+                        eleifend tellus. Aenean leo ligula, porttitor eu, consequat. Duis leo. Sed fringilla mauris sit
+                        amet nibh."
+                    </h4>
+                    <div class="text-white testimonial_data mt-4 border-top pt-3">
+                        <p class="mb-0">Laura Foster</p>
+                        <span>Agro</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="contact">
+        <div class="px-2 text-center d-flex flex-column justify-content-between align-items-center discover">
+            <span class="hint_colored position-relative text-center text-primary text-uppercase mb-3">CONTACT</span>
+            <h2 class="h1 mb-5 mt-3">Make a Reservation</h2>
+        </div>
+        <div class="row w-75 m-auto">
+            <div class="col-md-6">
+                <h5 class="mb-5">
+                    PRIVATE DINING
+                </h5>
+                <p>The Main Dining Room can accommodate up to 18 guests and requires either a half night or full
+                    night
+                    buyout. Reservations are available online 6 weeks before the date of the reservation.</p>
+            </div>
+            <div class="col-md-6">
+                <h5 class="mb-5">
+                    PRIVATE EVENTS
+                </h5>
+                <p>Looking for an ideal venue? Look no further. Corporate dinners, special occasions, Chef’s Table,
+                    let
+                    us handle your needs. Reservations are available online 6 weeks before the date of the
+                    reservation.
+                </p>
+            </div>
+        </div>
+        <form action="" class="row w-75 m-auto gy-3">
+            <div class="col-md-4">
+                <input type="text" placeholder="Name" class="form-control">
+            </div>
+            <div class="col-md-4">
+                <input type="text" placeholder="Email" class="form-control">
+            </div>
+            <div class="col-md-4">
+                <input type="text" placeholder="phone" class="form-control">
+            </div>
+            <div class="col-12">
+                <textarea type="text" rows="5" placeholder="Your Message" class="form-control pt-2"></textarea>
+            </div>
+
+            <button type="submit" class="outline-primary-btn my-5 book_now m-auto">BOOK NOW</button>
+        </form>
+    </section>
+    <footer>
+        <div class="w-75 m-auto">
+            <div class="row gy-5 text-white">
+                <div class="col-lg-3 col-sm-6">
+                    <div class="logo mb-4">
+                        <img src="images\caverta-logo2.png" alt="logo" class="w-100">
+                    </div>
+                    <p>For a truly memorable dining experience reserve in advance a table as soon as you can. Come
+                        and taste our remarkable food and wine.</p>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <h3>ADDRESS</h3>
+                    <p class="mb-0">58 Ralph Ave</p>
+                    <p class="mb-4">New York, New York 1111</p>
+                    <p class="mb-0">P: +1 800 000 111</p>
+                    <p>E: contact@example.com</p>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <h3>HOURS</h3>
+                    <p class="mb-0">Monday – Sunday</p>
+                    <p class="mb-0">Lunch: 12PM – 2PM</p>
+                    <p class="mb-3">Dinner: 6PM – 10PM</p>
+                    <p>Happy Hours: 4PM – 6PM</p>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <h3>MORE INFO</h3>
+                    <p class="mb-3">Careers</p>
+                    <p class="mb-4">Get in Touch</p>
+                    <p>Privacy Policy</p>
+                </div>
+            </div>
+            <div class="d-flex justify-content-between align-items-center info mt-5 pt-3 pb-3" onclick="">
+                <p>Copyright © <span id="year"></span>, Caverta . Designed by MatchThemes</p>
+                <div class="d-flex align-items-center">
+                    <i class="fa-brands fa-facebook-f text-white me-3 cursor-pointer"></i>
+                    <i class="fa-brands fa-twitter text-white me-3 cursor-pointer"></i>
+                    <i class="fa-brands fa-earlybirds text-white me-3 cursor-pointer"></i>
+                    <i class="fa-brands fa-instagram text-white me-3 cursor-pointer"></i>
+                    <i class="fa-brands fa-pinterest text-white cursor-pointer"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div
+        class="position-fixed rounded-circle d-flex justify-content-center align-items-center scroll_up menu_breath d-none cursor-pointer">
+        <i class="fa-solid fa-chevron-up text-white"></i>
+    </div>
+
+
+
+    <aside class="position-fixed py-4 overflow-auto" id="sidebar" onclick="event.stopPropagation()">
+        <h3 class="m-0 cursor-pointer" onclick="toggleSidebar('close')"><i
+                class="fa-solid fa-xmark text-white ms-3"></i></h3>
+
+        <ul class="my-0 me-5">
+            <li class="mx-3 position-relative cursor-pointer pt-3 mobile_submenu" onclick="toggleSubmenu(0)">
+                <div class="d-flex align-items-center justify-content-between">
+                    <a class="text-uppercase cursor-pointer position-relative">Home</a>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+                <ul class="d-none px-0 text-center">
+                    <li>Home 0</li>
+                    <li>Home 1</li>
+                    <li>Home 2</li>
+                    <li>Home 3</li>
+                    <li>Home 4</li>
+                    <li>Home Video</li>
+                    <li>Home 6</li>
+                    <li>Home 7</li>
+                    <li>Home 8</li>
+                    <li>Home 9</li>
+                    <li>Home 10</li>
+                    <li>Home 11</li>
+                </ul>
+            </li>
+            <li class="mx-3 position-relative cursor-pointer pt-3 mobile_submenu" onclick="toggleSubmenu(1)">
+                <div class="d-flex align-items-center justify-content-between">
+                    <a class="text-uppercase cursor-pointer position-relative">menu</a>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+                <ul class="d-none px-0 text-center">
+                    <li>Menu 1 col</li>
+                    <li>Menu 2 cols</li>
+                    <li>Menu 3 cols</li>
+                    <li>Menu According</li>
+                    <li>Menu 3</li>
+                    <li>Menu 4</li>
+                    <li>Menu 5</li>
+                    <li>Menu 6</li>
+                    <li>Menu 7</li>
+                    <li>Menu 8</li>
+                    <li>Menu 9</li>
+                    <li>Menu 10</li>
+                    <li>Menu 11</li>
+                    <li>Menu 12</li>
+                </ul>
+
+            </li>
+            <li class="mx-3 position-relative cursor-pointer pt-3 mobile_submenu" onclick="toggleSubmenu(2)">
+                <div class="d-flex align-items-center justify-content-between">
+                    <a class="text-uppercase cursor-pointer position-relative">pages</a>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+                <ul class="d-none px-0 text-center">
+                    <li>Top Headers</li>
+                    <li>Header 1</li>
+                    <li>Header 2</li>
+                    <li>Header 3</li>
+                    <li>Header 4</li>
+                    <li>Header 5</li>
+                    <li>Header 6</li>
+                    <li>Header 7</li>
+                    <li>Aboout Me</li>
+                    <li>Aboout Me 2</li>
+                    <li>Aboout Us</li>
+                    <li>Aboout Us 2</li>
+                    <li>Pricing</li>
+                    <li>FAQ</li>
+                </ul>
+            </li>
+            <li class="mx-3 position-relative d-flex align-items-center justify-content-between cursor-pointer pt-3">
+                <a class="text-uppercase cursor-pointer position-relative">reservation</a>
+
+            </li>
+            <li class="mx-3 position-relative cursor-pointer pt-3 mobile_submenu" onclick="toggleSubmenu(3)">
+                <div class="d-flex align-items-center justify-content-between">
+                    <a class="text-uppercase cursor-pointer position-relative">Blog</a>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+                <ul class="d-none px-0 text-center">
+                    <li>Classic</li>
+                    <li>List</li>
+                    <li>Grid 2 cols</li>
+                    <li>Grid 3 cols</li>
+                    <li>Single Post</li>
+                </ul>
+            </li>
+            <li class="mx-3 position-relative cursor-pointer pt-3 mobile_submenu" onclick="toggleSubmenu(4)">
+                <div class="d-flex align-items-center justify-content-between">
+                    <a class="text-uppercase cursor-pointer position-relative">team</a>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+                <ul class="d-none px-0 text-center">
+                    <li>Team 2 Cols</li>
+                    <li>Team 3 Cols</li>
+                    <li>Team 4 Cols</li>
+                </ul>
+            </li>
+            <li class="mx-3 position-relative cursor-pointer pt-3 mobile_submenu" onclick="toggleSubmenu(5)">
+                <div class="d-flex align-items-center justify-content-between">
+                    <a class="text-uppercase cursor-pointer position-relative">gallery</a>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+                <ul class="d-none px-0 text-center">
+                    <li>3 Cols</li>
+                    <li>4 Cols</li>
+                    <li>Full Screen 3 Cols</li>
+                    <li>Full Screen 4 Cols</li>
+                </ul>
+            </li>
+            <li class="mx-3 position-relative cursor-pointer pt-3 mobile_submenu" onclick="toggleSubmenu(6)">
+                <div class="d-flex align-items-center justify-content-between">
+                    <a class="text-uppercase cursor-pointer position-relative">contact</a>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+                <ul class="d-none px-0 text-center">
+                    <li>Contact 1</li>
+                    <li>Contact 2</li>
+                    <li>Contact 3</li>
+                    <li>Contact 4</li>
+                </ul>
+            </li>
+        </ul>
+
+        <div class="d-flex flex-column align-items-center mt-3">
+            <button class="btn outline-primary-btn rounded-0 mt-5">
+                BOOK A TABLE
+            </button>
+            <p class="address mt-3 mb-0">58 Ralph Ave
+                New York, New York 1111</p>
+            <h3 class="fw-normal my-3">
+                +1 800 000 111
+            </h3>
+            <p>contact@example.com</p>
+            <div class="d-flex align-items-center mt-5">
+                <i class="fa-brands fa-facebook-f text-white me-3 cursor-pointer"></i>
+                <i class="fa-brands fa-twitter text-white me-3 cursor-pointer"></i>
+                <i class="fa-brands fa-earlybirds text-white me-3 cursor-pointer"></i>
+                <i class="fa-brands fa-instagram text-white me-3 cursor-pointer"></i>
+                <i class="fa-brands fa-pinterest text-white cursor-pointer"></i>
+            </div>
+        </div>
+    </aside>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
